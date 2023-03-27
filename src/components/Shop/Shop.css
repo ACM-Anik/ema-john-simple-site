@@ -9,3 +9,17 @@
     grid-gap: 45px;
     margin: 50px;
 }
+
+@media screen and (max-width: 576px) {
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    
+    }
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        margin: 10px;
+    }
+}
