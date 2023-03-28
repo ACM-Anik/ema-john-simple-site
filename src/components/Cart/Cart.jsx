@@ -4,6 +4,7 @@ import './Cart.css';
 const Cart = ({cart}) => {
     // const cart = props.cart; //option1
     // const {cart} = props; //option2
+
     console.log(cart);
 
     let totalPrice = 0;
