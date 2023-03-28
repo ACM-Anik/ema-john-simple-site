@@ -59,3 +59,17 @@
         padding: 10px 15px;
     }
 }
+@media screen and (min-width: 1440px){
+    .shop-container{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        position: relative;
+    }
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+        margin: 15px;
+    }
+   
+}

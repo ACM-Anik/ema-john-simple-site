@@ -19,6 +19,7 @@ nav.header a:hover{
 @media screen and (max-width: 576px) {
     .header{
         padding: 10px 10px;
+        margin: 0;
         display: block;
     }
 }
